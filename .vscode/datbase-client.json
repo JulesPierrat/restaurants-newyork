@@ -1,0 +1,83 @@
+{
+    "nosql.connections": {
+        "1643726767060": {
+            "host": "localhost",
+            "dbPath": "",
+            "port": 27017,
+            "user": "",
+            "authType": "default",
+            "password": "",
+            "encoding": "utf8",
+            "clientKeyPath": null,
+            "clientCertPath": null,
+            "caPath": null,
+            "database": null,
+            "useSSL": false,
+            "usingSSH": false,
+            "showHidden": false,
+            "includeDatabases": null,
+            "dbType": "MongoDB",
+            "encrypt": true,
+            "isCluster": false,
+            "connectionUrl": "",
+            "srv": false,
+            "esAuth": "none",
+            "global": false,
+            "key": "1643726767060",
+            "timezone": "+00:00",
+            "ssh": {
+                "host": "",
+                "privateKeyPath": "/home/jules/.ssh/id_rsa",
+                "port": 22,
+                "username": "root",
+                "type": "password",
+                "connectTimeout": 10000,
+                "algorithms": {
+                    "cipher": []
+                }
+            },
+            "connectionKey": "nosql.connections",
+            "name": "MongoDB"
+        },
+        "1643727354375": {
+            "host": "localhost",
+            "dbPath": "",
+            "port": "27017",
+            "user": "localhost",
+            "authType": "default",
+            "password": null,
+            "encoding": "utf8",
+            "clientKeyPath": null,
+            "clientCertPath": null,
+            "caPath": null,
+            "database": null,
+            "useSSL": false,
+            "usingSSH": false,
+            "showHidden": false,
+            "includeDatabases": null,
+            "dbType": "MongoDB",
+            "encrypt": true,
+            "isCluster": false,
+            "connectionUrl": "mongodb://localhost:27017/",
+            "srv": false,
+            "esAuth": "none",
+            "global": false,
+            "key": "1643727354375",
+            "timezone": "+00:00",
+            "ssh": {
+                "host": "",
+                "privateKeyPath": "/home/jules/.ssh/id_rsa",
+                "port": 22,
+                "username": "root",
+                "type": "password",
+                "connectTimeout": 10000,
+                "algorithms": {
+                    "cipher": []
+                }
+            },
+            "useConnectionString": true,
+            "connectionKey": "nosql.connections",
+            "name": "MongoDB"
+        }
+    }
+}
